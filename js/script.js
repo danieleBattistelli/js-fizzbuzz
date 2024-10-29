@@ -1,7 +1,8 @@
-
+//Input
+const numberCycle = parseInt(prompt("Quanti numeri vuoi ciclare?"));
 let i =0;
 //Ciclo i numeri da 1 a 100
-for (i=1; i<=100; i++)
+for (i=1; i<=numberCycle; i++)
     //console.log(i)
     {
         //Controllo se divisibile per 3
